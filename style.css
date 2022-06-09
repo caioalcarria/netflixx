@@ -64,7 +64,7 @@ html,body,figure,header,ul,li,img,p,h1,h2,h3,nav,div,a, section{
         height: 160px;
         border-radius: 8px ;
         border: solid 2px transparent;
-        background-image: url(/perfil 4.jpg);
+        background-image: url(./perfil\ 4.jpg);
         
     }
     body .caixa .usuario a div:hover{
@@ -72,7 +72,7 @@ html,body,figure,header,ul,li,img,p,h1,h2,h3,nav,div,a, section{
         border-radius: 8px ;
         border-color: white;
         border: solid 2px;
-        background-image: url(./perfil 4.1.jpg);
+        background-image: url(./perfil\ 4.1.jpg);
         
     }
     body .caixa .usuario a .nome{
