@@ -1,0 +1,134 @@
+html,body,figure,header,ul,li,img,p,h1,h2,h3,nav,div,a, section{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;}
+
+    body{
+        background-color: #121214;
+       
+    }
+    div.caixa{
+        width: 700px;
+        
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 100%;
+        padding-top: 5.8%;
+        
+
+
+
+    }
+    body .caixa img{
+        width: 32%;
+        margin-bottom: 10.1%;
+    }
+    body .caixa h2{
+        padding-bottom: 9.9%;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 42px;
+    }
+    body .caixa .usuario{
+        padding-bottom: 14.2%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    body .caixa .usuario a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 160px;
+    }
+
+   
+
+
+    body .caixa .usuario a img{
+        width: 160px;
+        border-radius: 8px ;
+        border: solid 2px transparent;
+        
+    }
+    body .caixa .usuario a div{
+        width: 160px;
+        margin-bottom: 10%;
+        height: 160px;
+        border-radius: 8px ;
+        border: solid 2px transparent;
+        background-image: url(/perfil\ 4.jpg);
+        
+    }
+    body .caixa .usuario a div:hover{
+        width: 160px;
+        border-radius: 8px ;
+        border-color: white;
+        border: solid 2px;
+        background-image: url(/perfil\ 4.1.jpg);
+        
+    }
+    body .caixa .usuario a .nome{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        color: #9C9C9C;
+
+    }
+    body .caixa .usuario a img:hover{
+       
+        border-color: white;
+        border: solid 2px;
+        
+    }
+    body .caixa .usuario a .nome:hover{color: white;}
+
+
+
+
+
+
+
+
+
+
+
+    body .caixa .perfil{
+        width: 28.7%;
+        height: 50px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border: 1.5px solid #FFFFFF;
+        border-radius: 8px;
+        
+    }
+    body .caixa .perfil a{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    body .caixa .perfil:hover{
+        background-color: white;
+        color: black;
+    }
+    body .caixa .perfil a:hover{
+        
+        color: black;
+    }
